@@ -50,18 +50,24 @@
   text-align: left;
 
   a {
-    padding: 0;
-    font-size: $font-size-base;
+    padding: 2.5px 5px;
+    // font-size: $font-size-base;
+    font-size: 12px;
     //color: $grey-dim;
     background: none;
-    border: none;
-    border-bottom: 2px solid $grey-dim;
+    border: 1.5px solid $grey-dim;
+    border-radius: 4px;
+    // border-bottom: 2px solid $grey-dim;
     transition-property: border;
 
     +mobile() { font-size: $font-size-small; }
     +desktop-large() { font-size: $font-size-large; }
 
 
-    &:hover { border-bottom-color: $black-deep; }
+    // &:hover { border-bottom-color: $black-deep; }
+    &:hover {
+      background: #000000;
+      color: #ffffff; 
+    }
   }
 }

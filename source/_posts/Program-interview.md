@@ -9,6 +9,7 @@ categories:
 - 面试相关
 copyright: true
 description: 一些面试题目收集
+disallow: true
 ---
 
 # 面试题目收集

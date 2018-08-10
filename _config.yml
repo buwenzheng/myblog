@@ -7,13 +7,13 @@ title: Solitude
 subtitle: get busy living or get busy dying.
 description: 等闲变却故人心，却道故人心易变
 keywords:
-author: whenz
+author: buwenzheng
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://buwenzheng.cn
+url: https://www.buwenzheng.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,6 +79,20 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/buwenzheng/buwenzheng.github.io.git
-  branch: master
+  - type: git
+    repository: https://github.com/buwenzheng/buwenzheng.github.io.git
+    branch: master
+
+  # - type: baidu_url_submitter
+  
+# SEO config
+sitemap: 
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
+
+# baidu_url_submit:
+#   count: 3 ## 提交最新的一个链接
+#   host: https://www.buwenzheng.cn ## 在百度站长平台中注册的域名
+#   token: "" ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+#   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
