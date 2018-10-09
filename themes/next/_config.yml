@@ -283,7 +283,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme 
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
@@ -299,7 +299,7 @@ highlight_theme: normal
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -312,14 +312,14 @@ font:
   # Global font settings used on <body> element.
   global:
     external: true
-    family: Lato
+    family: 
     size:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: 
     size:
 
   # Font settings for posts.
@@ -332,8 +332,8 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
-    size:
+    family: Lobster Two
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
@@ -384,16 +384,16 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 # 评论
-valine:
-  enable: true
-  appid:  EvKaYVKqwRfMKSldIoH5u6KJ-gzGzoHsz
-  appkey:  nlW2e0hyh7uIuISTvyJUOAXh
-  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: 快来说两句呗~ # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
+# valine:
+#   enable: true
+#   appid:  EvKaYVKqwRfMKSldIoH5u6KJ-gzGzoHsz
+#   appkey:  nlW2e0hyh7uIuISTvyJUOAXh
+#   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+#   verify: false # Verification code
+#   placeholder: 快来说两句呗~ # comment box placeholder
+#   avatar: mm # gravatar style
+#   guest_info: nick,mail,link # custom comment header
+#   pageSize: 10 # pagination size
 
 
 # Support for youyan comments system.
@@ -401,8 +401,9 @@ valine:
 #youyan_uid: your uid
 
 # Support for LiveRe comments system.
+# 来必力评论
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zOTI4OS8xNTgxNg==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/

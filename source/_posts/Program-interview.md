@@ -12,9 +12,7 @@ description: 一些面试题目收集
 disallow: true
 ---
 
-# 面试题目收集
-
-### 编程思维
+## 编程思维
 1. 如果让你用原生js设计一个树控件，说说你的设计思路
 
 
@@ -34,7 +32,7 @@ disallow: true
 1. 10W条记录的数组，一次性渲染到页面上，如何处理可以不冻结UI？
 
 
-### 拓展类问题
+## 拓展类问题
 1. 在前端或者整个计算机领域最擅长的那个点？
 
 1. 数据意义上的函数是如何定义的？
@@ -54,7 +52,7 @@ disallow: true
 
 1. 实现一个事件Event类，包含on,off,emit方法
 
-### CSS
+## CSS
 1. 盒子模型
 html文档中的每个元素都被描绘成矩形盒子，这些矩形盒子通过一个模型来描述其占用空间，这个模型称为盒模型。盒模型通过四个边界来描述：margin（外边距），border（边框），padding（内边距），content（内容区域），如图所示
 **几点要注意的地方**
@@ -164,7 +162,7 @@ css3新[特性](https://www.ibm.com/developerworks/cn/web/1202_zhouxiang_css3/)
   3. display:table display:table-cell
   4. flex
   
-### Javascript
+## Javascript
 1. 数据类型有哪些(参考[JavaScript基本数据类型和内置数据类型
 ](https://blog.csdn.net/a597926661/article/details/8000275))
     - 基本数据类型
@@ -230,7 +228,7 @@ css3新[特性](https://www.ibm.com/developerworks/cn/web/1202_zhouxiang_css3/)
  
 
 
-#### 博文链接
+### 博文链接
 [前端开发面试题总结之——CSS3](https://www.jianshu.com/p/f60b619aa52b)
 
 

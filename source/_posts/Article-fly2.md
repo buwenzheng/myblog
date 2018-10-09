@@ -4,7 +4,7 @@ disallow: true
 date: 2018-08-10 15:07:13
 tags:
 categories:
-- 偶尔写点东西
+- 自己写的一些东西
 - 飞
 copyright: true
 description: 一段呓语
@@ -20,4 +20,3 @@ description: 一段呓语
 　
 　公交车上，大半的人在睡觉，这个时间坐公交车的人本应是朝气蓬勃的，却连手机也不玩了。或许这个时候能什么都不想才是最难得的事情。
 
-![](http://pd8i5b7t9.bkt.clouddn.com/2018-08-10-075931.jpg)
