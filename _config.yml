@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Solitude
+title: Whenz的生活分享
 subtitle: get busy living or get busy dying.
 description: 等闲变却故人心，却道故人心易变
 keywords:
@@ -26,7 +26,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: "static/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
